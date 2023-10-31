@@ -1,37 +1,44 @@
-# AST TOOLS
+# AST TOOLS 🏗
 
 Python Code Analysis Tools for the dci_fbw_p23_e07 Class
 
-## Tool Repository
+## 🧰 Tool Repository
 
-This repository contains a set of tools that are continually integrated into our Python projects. Follow these steps to get started:
+Welcome to The DCI toolbox! This toolbox is an essential part of our Python projects.
 
-### Installation
+### 🚀 Installation
 
-1. **Clone the Repository**: 
-    ```
-    git clone https://github.com/AElnamaki/AST-tools.git
+Get started in no time! Follow these simple steps:
+
+1. **Clone the Repository**:
+
+    ```bash
+    $ git clone https://github.com/AElnamaki/AST-tools.git
     ```
 
 2. **Navigate to the AST-tools Directory**:
-    ```
-    cd AST-tools
+
+    ```bash
+    $ cd AST-tools
     ```
 
 3. **Make the Install Script Executable**:
-    ```
-    sudo chmod +x install.sh
+
+    ```bash
+    $ sudo chmod +x install.sh
     ```
 
 4. **Run the Install Script**:
+
+    ```bash
+    $ bash ./install.sh
     ```
-    bash ./install.sh
-    ```
 
-### Usage
+### 💡 Usage
 
-Once the installation is complete, you can start using the scripts provided in this repository.
+Now let's dive into the magic! You can start using the scripts right away.
 
-For example:
+For instance, to generate an AST graph from a Python file, run:
+
 ```bash
-python3 Python_graph.py
+$ python3 Python_graph.py YOUR/PATH/TO/YOUR/PYTHON/FILE
