@@ -36,7 +36,7 @@ Get started in no time! Follow these simple steps:
 
 ### 💡 Usage
 
-Now let's dive into the magic! You can start using the scripts right away.
+After executing the script, it will prompt you to provide the path to your Python code. Once you insert the path of your Python file, the script will generate a graph representing all the operations in your code based on the abstract syntax tree. The generated graph will be stored in the same directory as the script.
 
 For instance, to generate an AST graph from a Python file, run:
 
