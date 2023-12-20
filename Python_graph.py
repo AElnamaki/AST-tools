@@ -16,7 +16,7 @@ def traverse_ast(node, parent, graph):
     
     if isinstance(node, ast.FunctionDef):
         # Add the function name as an attribute to the node
-        current_node.set_label(node.id)
+        current_node.set_label(node.name)
     
     if isinstance(node, ast.If):
         # Add additional information for If nodes
